@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <title>Forecast App</title>
 </head>
 <body> 
@@ -12,24 +15,20 @@
     <header>
        
         <form class="search-bar">
-            <input type="search" placeholder="Enter a city..." required>
-            <input type="submit" value="Search">
+            <input type="search" placeholder="Enter a city..." required class="search-form-input">
+            <input type="submit" value="Search" class = "search-button">
         </form>
     <main>
-        <div>
-<h1>Paris</h1>
-<p>Tuesday 14:49</p>
-<p>
-☀️</p>
-</div>
-
-<div>
-    <p>12°C
-</br>scattered clouds</p>
-</div>
-
-<div>
-    <p>Humidity: 66%, Wind: 3.13km/h</p>
+        <div class="main-container">
+<h1>
+<div class="city">Paris</div>
+<div class="weather-details">
+<span class="time">Sat 11:30, </span><span class ="weather-warnings">partly cloudy</span>
+<div class="weather-conditions">Humidity: 78%, Wind: 5.14km/h</div></div>
+</h1>
+<h2>
+<div class="temperature-container"><span class="weather-emoji">☀️</span><span class="temperature">12</span><span class="temperature-unit">°C</span></div> 
+</h2>
 </div>
 
     </main>
