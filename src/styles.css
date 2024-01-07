@@ -2,7 +2,12 @@ body {
     background-color: #F9F7FE;
     font-family: 'Roboto', sans-serif;
 }
-
+ footer {
+    text-align: center;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.6);
+    padding-top: 25px
+ }
 .app-body {
     background-color: white;
     border-radius: 15px;
@@ -43,6 +48,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin: 0 15px;
+    border-bottom: 1px solid #f9f7fe;
 }
 
 .city {
@@ -52,7 +58,12 @@ body {
     font-size: 16px;
     color: rgba(39, 33, 66, 0.4);
     line-height: 22px;
-    font-weight: light;
+    font-weight: light; 
+    margin: 15px 0;
+
+}
+strong.value {
+    color: #f65282;
 }
 
 .temperature-container {
@@ -73,3 +84,4 @@ body {
     padding-top: 12px;
     font-weight: lighter;
 }
+
