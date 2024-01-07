@@ -2,12 +2,18 @@ body {
     background-color: #F9F7FE;
     font-family: 'Roboto', sans-serif;
 }
+
  footer {
     text-align: center;
-    font-size: 14px;
+    font-size: 13px;
     color: rgba(0, 0, 0, 0.6);
     padding-top: 25px
  }
+
+ a {
+    color: #885df1;
+ }
+
 .app-body {
     background-color: white;
     border-radius: 15px;
@@ -17,6 +23,7 @@ body {
     margin: 45px auto;
     padding: 20px;
 }
+
 .search-bar {
     text-align: center;
     margin: 10px 15px;
@@ -31,8 +38,8 @@ body {
    width: 470px;
    font-size: 16px;
    padding: 15px 20px; 
-  
 }
+
 .search-button {
     background: #885df1;
     padding: 15px 20px; 
@@ -53,14 +60,15 @@ body {
 .city {
     font-size: 40px;
 }
+
 .weather-details {
     font-size: 16px;
     color: rgba(39, 33, 66, 0.4);
     line-height: 22px;
     font-weight: light; 
     margin: 15px 0;
-
 }
+
 strong.value {
     color: #f65282;
 }
